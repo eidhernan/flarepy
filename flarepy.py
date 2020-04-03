@@ -110,8 +110,6 @@ class Fp:
     def __init__(self):
         self.__width = t.width
         self.__height = t.height
-        self.case = case
-        self.enable = enable
         self.queue = []
     @staticmethod
     def char(character):
